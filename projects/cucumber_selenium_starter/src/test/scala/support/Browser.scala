@@ -6,5 +6,5 @@ import org.scalatest.selenium.WebBrowser
 
 trait Browser extends WebBrowser {
   implicit val webDriver: WebDriver = new ChromeDriver()
-  sys.addShutdownHook(webDriver.close())
+//  sys.addShutdownHook(webDriver.close())
 }
